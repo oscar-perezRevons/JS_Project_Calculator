@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "oscar-perezRevons",
+    "commit": {
+      "date": "2025-08-17T22:57:42.000Z",
+      "message": "Uploading the first changes at the project",
+      "url": "https://github.com/oscar-perezRevons/JS_Project_Calculator/commit/HEAD"
+    },
+    "stats": {
+      "total": 2165,
+      "additions": 1095,
+      "deletions": 1070,
+      "date": "2025-08-17"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
