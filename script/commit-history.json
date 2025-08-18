@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3c18db4047d91e47d90434cb4de202edc8032e85",
     "author": "oscar-perezRevons",
     "commit": {
       "date": "2025-08-18T02:38:41.000Z",
       "message": "Add multiply functionality",
-      "url": "https://github.com/oscar-perezRevons/JS_Project_Calculator/commit/HEAD"
+      "url": "https://github.com/oscar-perezRevons/JS_Project_Calculator/commit/3c18db4047d91e47d90434cb4de202edc8032e85"
     },
     "stats": {
       "total": 19,
       "additions": 16,
       "deletions": 3,
+      "date": "2025-08-18"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "oscar-perezRevons",
+    "commit": {
+      "date": "2025-08-18T18:14:45.000Z",
+      "message": "Add new functionalities and styles in the calculator",
+      "url": "https://github.com/oscar-perezRevons/JS_Project_Calculator/commit/HEAD"
+    },
+    "stats": {
+      "total": 116,
+      "additions": 112,
+      "deletions": 4,
       "date": "2025-08-18"
     },
     "coverage": 100,

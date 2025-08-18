@@ -1,0 +1,80 @@
+html{
+    font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+    font-size:  large;
+    background: linear-gradient(150deg, #ffffff 0%, #000000 100%);
+    min-height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 6px #c1e6ff;
+    margin-bottom: 24px;
+}
+
+form{
+    background: #ffffffcc;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgba(0, 153, 255, 0.15);
+    padding: 32px 40px 24px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 320px;
+}
+
+label{
+    color: rgba(0, 0, 0, 0.95);
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 22px;
+}
+
+input[type="number"] {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    border: 1px solid #d0eaff;
+    border-radius: 6px;
+    padding: 6px 10px;
+    margin-bottom: 12px;
+    background: #f7fbff;
+}
+
+button{
+    color: white;
+    background: rgb(7, 153, 250);
+    border: none;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-size: large;
+    margin-top: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#resultado-div{
+    margin-top: 24px;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    min-height: 40px;
+}
+
+.button {
+  font-size: 18px;
+  background: #000000;
+  color: white;
+  border-radius: 6px;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+}

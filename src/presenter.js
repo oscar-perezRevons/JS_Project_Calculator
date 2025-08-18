@@ -1,5 +1,8 @@
 import sumar from "./sumador";
 import multiplicar from "./multiplicador";
+import restar from "./restador";
+import dividir from "./divisor";
+import potenciar from "./potenciador";
 
 const first = document.querySelector("#primer-numero");
 const second = document.querySelector("#segundo-numero");
@@ -18,5 +21,11 @@ form.addEventListener("submit", (event) => {
     div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
   } else if (accion === "Multiplicar"){
     div.innerHTML = "<p>" + multiplicar(firstNumber, secondNumber) + "</p>";
+  } else if (accion === "Restar"){
+    div.innerHTML = "<p>" + restar(firstNumber, secondNumber) + "</p>";
+  } else if (accion === "Dividir"){
+    div.innerHTML = "<p>" + dividir(firstNumber, secondNumber) + "</p>";
+  } else if (accion === "Potenciar"){
+    div.innerHTML = "<p>" + potenciar(firstNumber, secondNumber) + "</p>";
   }
 });

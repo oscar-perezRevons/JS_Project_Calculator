@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html xml:lang="es">
   <head>
-    <title>Sumador</title>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Sumador</h1>
+    <h1>Operaciones Básicas</h1>
     <form id="form">
       <label for="primer-numero">Primer número:</label>
       <input type="number" id="primer-numero" />
       <label for="segundo-numero">Segundo número:</label>
       <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-      <input type="submit" value="Multiplicar" id="multiplicar-button" />
+      <input type="submit" value="Sumar" class="button" />
+      <input type="submit" value="Multiplicar" class="button" />
+      <input type="submit" value="Restar" class="button" />
+      <input type="submit" value="Dividir" class="button" />
+      <input type="submit" value="Potenciar" class="button" />
     </form>
     <div id="resultado-div"></div>
 
